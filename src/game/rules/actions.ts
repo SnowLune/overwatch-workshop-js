@@ -1,876 +1,889 @@
-function Abort()
+function Abort( undefined: undefined ): string
 {
+   return "Abort;"
 }
 
-function AbortIf()
+function AbortIf(): string
 {
 }
 
-function AbortIfConditionIsFalse()
+function AbortIfConditionIsFalse( undefined: undefined ): string
 {
+   return "AbortIfConditionIsFalse;"
 }
 
-function AbortIfConditionIsTrue()
+function AbortIfConditionIsTrue( undefined: undefined ): string
 {
+   return "AbortIfConditionIsTrue;"
 }
 
-function AddHealthPoolToPlayer()
+function AddHealthPoolToPlayer(): string
 {
 }
 
-function AllowButton()
+function AllowButton(): string
 {
 }
 
-function ApplyImpulse()
+function ApplyImpulse(): string
 {
 }
 
-function AttachPlayers()
+function AttachPlayers(): string
 {
 }
 
-function BigMessage()
+function BigMessage(): string
 {
 }
 
-function Break()
+function Break( undefined: undefined ): string
 {
+   return "Break;"
 }
 
-function CallSubroutine()
+function CallSubroutine(): string
 {
 }
 
-function CancelPrimaryAction()
+function CancelPrimaryAction(): string
 {
 }
 
-function ChaseGlobalVariableAtRate()
+function ChaseGlobalVariableAtRate(): string
 {
 }
 
-function ChaseGlobalVariableOverTime()
+function ChaseGlobalVariableOverTime(): string
 {
 }
 
-function ChasePlayerVariableAtRate()
+function ChasePlayerVariableAtRate(): string
 {
 }
 
-function ChasePlayerVariableOverTime()
+function ChasePlayerVariableOverTime(): string
 {
 }
 
-function ClearStatus()
+function ClearStatus(): string
 {
 }
 
-function Communicate()
+function Communicate(): string
 {
 }
 
-function Continue()
+function Continue( undefined: undefined ): string
 {
+   return "Continue;"
 }
 
-function CreateBeamEffect()
+function CreateBeamEffect(): string
 {
 }
 
-function CreateDummyBot()
+function CreateDummyBot(): string
 {
 }
 
-function CreateEffect()
+function CreateEffect(): string
 {
 }
 
-function CreateHUDText()
+function CreateHUDText(): string
 {
 }
 
-function CreateIcon()
+function CreateIcon(): string
 {
 }
 
-function CreateInWorldText()
+function CreateInWorldText(): string
 {
 }
 
-function CreateProgressBarHUDText()
+function CreateProgressBarHUDText(): string
 {
 }
 
-function CreateProgressBarInWorldText()
+function CreateProgressBarInWorldText(): string
 {
 }
 
-function Damage()
+function Damage(): string
 {
 }
 
-function DeclareMatchDraw()
+function DeclareMatchDraw( undefined: undefined ): string
 {
+   return "DeclareMatchDraw;"
 }
 
-function DeclarePlayerVictory()
+function DeclarePlayerVictory(): string
 {
 }
 
-function DeclareRoundDraw()
+function DeclareRoundDraw( undefined: undefined ): string
 {
+   return "DeclareRoundDraw;"
 }
 
-function DeclareRoundVictory()
+function DeclareRoundVictory(): string
 {
 }
 
-function DeclareTeamVictory()
+function DeclareTeamVictory(): string
 {
 }
 
-function DestroyAllDummyBots()
+function DestroyAllDummyBots( undefined: undefined ): string
 {
+   return "DestroyAllDummyBots;"
 }
 
-function DestroyAllEffects()
+function DestroyAllEffects( undefined: undefined ): string
 {
+   return "DestroyAllEffects;"
 }
 
-function DestroyAllHUDText()
+function DestroyAllHUDText( undefined: undefined ): string
 {
+   return "DestroyAllHUDText;"
 }
 
-function DestroyAllIcons()
+function DestroyAllIcons( undefined: undefined ): string
 {
+   return "DestroyAllIcons;"
 }
 
-function DestroyAllInWorldText()
+function DestroyAllInWorldText( undefined: undefined ): string
 {
+   return "DestroyAllIn-WorldText;"
 }
 
-function DestroyDummyBot()
+function DestroyDummyBot(): string
 {
 }
 
-function DestroyEffect()
+function DestroyEffect(): string
 {
 }
 
-function DestroyHUDText()
+function DestroyHUDText(): string
 {
 }
 
-function DestroyIcon()
+function DestroyIcon(): string
 {
 }
 
-function DestroyInWorldText()
+function DestroyInWorldText(): string
 {
 }
 
-function DestroyProgressBarHUDText()
+function DestroyProgressBarHUDText(): string
 {
 }
 
-function DestroyProgressBarInWorldText()
+function DestroyProgressBarInWorldText(): string
 {
 }
 
-function DetachPlayers()
+function DetachPlayers(): string
 {
 }
 
-function DisableBuiltInGameModeAnnouncer()
+function DisableBuiltInGameModeAnnouncer( undefined: undefined ): string
 {
+   return "DisableBuild-InGameModeAnnouncer;"
 }
 
-function DisableBuiltInGameModeCompletion()
+function DisableBuiltInGameModeCompletion(): string
 {
 }
 
-function DisableBuiltInGameModeMusic()
+function DisableBuiltInGameModeMusic(): string
 {
 }
 
-function DisableBuiltInGameModeRespawning()
+function DisableBuiltInGameModeRespawning(): string
 {
 }
 
-function DisableBuiltInGameModeScoring()
+function DisableBuiltInGameModeScoring(): string
 {
 }
 
-function DisableDeathSpectateAllPlayers()
+function DisableDeathSpectateAllPlayers(): string
 {
 }
 
-function DisableDeathSpectateTargetHUD()
+function DisableDeathSpectateTargetHUD(): string
 {
 }
 
-function DisableGameModeHUD()
+function DisableGameModeHUD(): string
 {
 }
 
-function DisableGameModeInWorldUI()
+function DisableGameModeInWorldUI(): string
 {
 }
 
-function DisableHeroHUD()
+function DisableHeroHUD(): string
 {
 }
 
-function DisableInspectorRecording()
+function DisableInspectorRecording(): string
 {
 }
 
-function DisableKillFeed()
+function DisableKillFeed(): string
 {
 }
 
-function DisableMessages()
+function DisableMessages(): string
 {
 }
 
-function DisableMovementCollisionWithEnvironment()
+function DisableMovementCollisionWithEnvironment(): string
 {
 }
 
-function DisableMovementCollisionWithPlayers()
+function DisableMovementCollisionWithPlayers(): string
 {
 }
 
-function DisableNameplates()
+function DisableNameplates(): string
 {
 }
 
-function DisableScoreboard()
+function DisableScoreboard(): string
 {
 }
 
-function DisableTextChat()
+function DisableTextChat(): string
 {
 }
 
-function DisableVoiceChat()
+function DisableVoiceChat(): string
 {
 }
 
-function DisallowButton()
+function DisallowButton(): string
 {
 }
 
-function Else()
+function Else(): string
 {
 }
 
-function ElseIf()
+function ElseIf(): string
 {
 }
 
-function EnableBuiltInGameModeAnnouncer()
+function EnableBuiltInGameModeAnnouncer(): string
 {
 }
 
-function EnableBuiltInGameModeCompletion()
+function EnableBuiltInGameModeCompletion(): string
 {
 }
 
-function EnableBuiltInGameModeMusic()
+function EnableBuiltInGameModeMusic(): string
 {
 }
 
-function EnableBuiltInGameModeRespawning()
+function EnableBuiltInGameModeRespawning(): string
 {
 }
 
-function EnableBuiltInGameModeScoring()
+function EnableBuiltInGameModeScoring(): string
 {
 }
 
-function EnableDeathSpectateAllPlayers()
+function EnableDeathSpectateAllPlayers(): string
 {
 }
 
-function EnableGameModeHUD()
+function EnableGameModeHUD(): string
 {
 }
 
-function EnableGameModeInWorldUI()
+function EnableGameModeInWorldUI(): string
 {
 }
 
-function EnableHeroHUD()
+function EnableHeroHUD(): string
 {
 }
 
-function EnableInspectorRecording()
+function EnableInspectorRecording(): string
 {
 }
 
-function EnableKillFeed()
+function EnableKillFeed(): string
 {
 }
 
-function EnableMessages()
+function EnableMessages(): string
 {
 }
 
-function EnableMovementCollisionWithEnvironment()
+function EnableMovementCollisionWithEnvironment(): string
 {
 }
 
-function EnableMovementCollisionWithPlayers()
+function EnableMovementCollisionWithPlayers(): string
 {
 }
 
-function EnableNameplates()
+function EnableNameplates(): string
 {
 }
 
-function EnableScoreboard()
+function EnableScoreboard(): string
 {
 }
 
-function EnableTextChat()
+function EnableTextChat(): string
 {
 }
 
-function EnableVoiceChat()
+function EnableVoiceChat(): string
 {
 }
 
-function End()
+function End(): string
 {
 }
 
-function ForGlobalVariable()
+function ForGlobalVariable(): string
 {
 }
 
-function ForPlayerVariable()
+function ForPlayerVariable(): string
 {
 }
 
-function GoToAssembleHeroes()
+function GoToAssembleHeroes(): string
 {
 }
 
-function Heal()
+function Heal(): string
 {
 }
 
-function If()
+function If(): string
 {
 }
 
-function Kill()
+function Kill(): string
 {
 }
 
-function LogToInspector()
+function LogToInspector(): string
 {
 }
 
-function Loop()
+function Loop(): string
 {
 }
 
-function LoopIf()
+function LoopIf(): string
 {
 }
 
-function LoopIfConditionIsFalse()
+function LoopIfConditionIsFalse(): string
 {
 }
 
-function LoopIfConditionIsTrue()
+function LoopIfConditionIsTrue(): string
 {
 }
 
-function ModifyGlobalVariable()
+function ModifyGlobalVariable(): string
 {
 }
 
-function ModifyGlobalVariableAtIndex()
+function ModifyGlobalVariableAtIndex(): string
 {
 }
 
-function ModifyPlayerScore()
+function ModifyPlayerScore(): string
 {
 }
 
-function ModifyPlayerVariable()
+function ModifyPlayerVariable(): string
 {
 }
 
-function ModifyPlayerVariableAtIndex()
+function ModifyPlayerVariableAtIndex(): string
 {
 }
 
-function ModifyTeamScore()
+function ModifyTeamScore(): string
 {
 }
 
-function MovePlayertoTeam()
+function MovePlayertoTeam(): string
 {
 }
 
-function PauseMatchTime()
+function PauseMatchTime(): string
 {
 }
 
-function PlayEffect()
+function PlayEffect(): string
 {
 }
 
-function PreloadHero()
+function PreloadHero(): string
 {
 }
 
-function PressButton()
+function PressButton(): string
 {
 }
 
-function RemoveAllHealthPoolsFromPlayer()
+function RemoveAllHealthPoolsFromPlayer(): string
 {
 }
 
-function RemoveHealthPoolFromPlayer()
+function RemoveHealthPoolFromPlayer(): string
 {
 }
 
-function RemovePlayer()
+function RemovePlayer(): string
 {
 }
 
-function ResetPlayerHeroAvailability()
+function ResetPlayerHeroAvailability(): string
 {
 }
 
-function Respawn()
+function Respawn(): string
 {
 }
 
-function RestartMatch()
+function RestartMatch(): string
 {
 }
 
-function Resurrect()
+function Resurrect(): string
 {
 }
 
-function ReturntoLobby()
+function ReturntoLobby(): string
 {
 }
 
-function SetAbility1Enabled()
+function SetAbility1Enabled(): string
 {
 }
 
-function SetAbility2Enabled()
+function SetAbility2Enabled(): string
 {
 }
 
-function SetAbilityCharge()
+function SetAbilityCharge(): string
 {
 }
 
-function SetAbilityCooldown()
+function SetAbilityCooldown(): string
 {
 }
 
-function SetAbilityResource()
+function SetAbilityResource(): string
 {
 }
 
-function SetAimSpeed()
+function SetAimSpeed(): string
 {
 }
 
-function SetAmmo()
+function SetAmmo(): string
 {
 }
 
-function SetCrouchEnabled()
+function SetCrouchEnabled(): string
 {
 }
 
-function SetDamageDealt()
+function SetDamageDealt(): string
 {
 }
 
-function SetDamageReceived()
+function SetDamageReceived(): string
 {
 }
 
-function SetEnvironmentCreditPlayer()
+function SetEnvironmentCreditPlayer(): string
 {
 }
 
-function SetFacing()
+function SetFacing(): string
 {
 }
 
-function SetGlobalVariable()
+function SetGlobalVariable(): string
 {
 }
 
-function SetGlobalVariableAtIndex()
+function SetGlobalVariableAtIndex(): string
 {
 }
 
-function SetGravity()
+function SetGravity(): string
 {
 }
 
-function SetHealingDealt()
+function SetHealingDealt(): string
 {
 }
 
-function SetHealingReceived()
+function SetHealingReceived(): string
 {
 }
 
-function SetInvisible()
+function SetInvisible(): string
 {
 }
 
-function SetJumpEnabled()
+function SetJumpEnabled(): string
 {
 }
 
-function SetJumpVerticalSpeed()
+function SetJumpVerticalSpeed(): string
 {
 }
 
-function SetKnockbackDealt()
+function SetKnockbackDealt(): string
 {
 }
 
-function SetKnockbackReceived()
+function SetKnockbackReceived(): string
 {
 }
 
-function SetMatchTime()
+function SetMatchTime(): string
 {
 }
 
-function SetMaxAmmo()
+function SetMaxAmmo(): string
 {
 }
 
-function SetMaxHealth()
+function SetMaxHealth(): string
 {
 }
 
-function SetMeleeEnabled()
+function SetMeleeEnabled(): string
 {
 }
 
-function SetMoveSpeed()
+function SetMoveSpeed(): string
 {
 }
 
-function SetObjectiveDescription()
+function SetObjectiveDescription(): string
 {
 }
 
-function SetPlayerAllowedHeroes()
+function SetPlayerAllowedHeroes(): string
 {
 }
 
-function SetPlayerHealth()
+function SetPlayerHealth(): string
 {
 }
 
-function SetPlayerScore()
+function SetPlayerScore(): string
 {
 }
 
-function SetPlayerVariable()
+function SetPlayerVariable(): string
 {
 }
 
-function SetPlayerVariableAtIndex()
+function SetPlayerVariableAtIndex(): string
 {
 }
 
-function SetPrimaryFireEnabled()
+function SetPrimaryFireEnabled(): string
 {
 }
 
-function SetProjectileGravity()
+function SetProjectileGravity(): string
 {
 }
 
-function SetProjectileSpeed()
+function SetProjectileSpeed(): string
 {
 }
 
-function SetReloadEnabled()
+function SetReloadEnabled(): string
 {
 }
 
-function SetRespawnMaxTime()
+function SetRespawnMaxTime(): string
 {
 }
 
-function SetSecondaryFireEnabled()
+function SetSecondaryFireEnabled(): string
 {
 }
 
-function SetSlowMotion()
+function SetSlowMotion(): string
 {
 }
 
-function SetStatus()
+function SetStatus(): string
 {
 }
 
-function SetTeamScore()
+function SetTeamScore(): string
 {
 }
 
-function SetUltimateAbilityEnabled()
+function SetUltimateAbilityEnabled(): string
 {
 }
 
-function SetUltimateCharge()
+function SetUltimateCharge(): string
 {
 }
 
-function SetWeapon()
+function SetWeapon(): string
 {
 }
 
-function Skip()
+function Skip(): string
 {
 }
 
-function SkipIf()
+function SkipIf(): string
 {
 }
 
-function SmallMessage()
+function SmallMessage(): string
 {
 }
 
-function StartAccelerating()
+function StartAccelerating(): string
 {
 }
 
-function StartAssist()
+function StartAssist(): string
 {
 }
 
-function StartCamera()
+function StartCamera(): string
 {
 }
 
-function StartDamageModification()
+function StartDamageModification(): string
 {
 }
 
-function StartDamageOverTime()
+function StartDamageOverTime(): string
 {
 }
 
-function StartFacing()
+function StartFacing(): string
 {
 }
 
-function StartForcingDummyBotName()
+function StartForcingDummyBotName(): string
 {
 }
 
-function StartForcingPlayerOutlines()
+function StartForcingPlayerOutlines(): string
 {
 }
 
-function StartForcingPlayerPosition()
+function StartForcingPlayerPosition(): string
 {
 }
 
-function StartForcingPlayerToBeHero()
+function StartForcingPlayerToBeHero(): string
 {
 }
 
-function StartForcingSpawnRoom()
+function StartForcingSpawnRoom(): string
 {
 }
 
-function StartForcingThrottle()
+function StartForcingThrottle(): string
 {
 }
 
-function StartGameMode()
+function StartGameMode(): string
 {
 }
 
-function StartHealOverTime()
+function StartHealOverTime(): string
 {
 }
 
-function StartHealingModification()
+function StartHealingModification(): string
 {
 }
 
-function StartHoldingButton()
+function StartHoldingButton(): string
 {
 }
 
-function StartModifyingHeroVoiceLines()
+function StartModifyingHeroVoiceLines(): string
 {
 }
 
-function StartRule()
+function StartRule(): string
 {
 }
 
-function StartScalingBarriers()
+function StartScalingBarriers(): string
 {
 }
 
-function StartScalingPlayer()
+function StartScalingPlayer(): string
 {
 }
 
-function StartThrottleInDirection()
+function StartThrottleInDirection(): string
 {
 }
 
-function StartTransformingThrottle()
+function StartTransformingThrottle(): string
 {
 }
 
-function StopAccelerating()
+function StopAccelerating(): string
 {
 }
 
-function StopAllAssists()
+function StopAllAssists(): string
 {
 }
 
-function StopAllDamageModifications()
+function StopAllDamageModifications(): string
 {
 }
 
-function StopAllDamageOverTime()
+function StopAllDamageOverTime(): string
 {
 }
 
-function StopAllHealOverTime()
+function StopAllHealOverTime(): string
 {
 }
 
-function StopAllHealingModifications()
+function StopAllHealingModifications(): string
 {
 }
 
-function StopAssist()
+function StopAssist(): string
 {
 }
 
-function StopCamera()
+function StopCamera(): string
 {
 }
 
-function StopChasingGlobalVariable()
+function StopChasingGlobalVariable(): string
 {
 }
 
-function StopChasingPlayerVariable()
+function StopChasingPlayerVariable(): string
 {
 }
 
-function StopDamageModification()
+function StopDamageModification(): string
 {
 }
 
-function StopDamageOverTime()
+function StopDamageOverTime(): string
 {
 }
 
-function StopFacing()
+function StopFacing(): string
 {
 }
 
-function StopForcingDummyBotName()
+function StopForcingDummyBotName(): string
 {
 }
 
-function StopForcingPlayerOutlines()
+function StopForcingPlayerOutlines(): string
 {
 }
 
-function StopForcingPlayerPosition()
+function StopForcingPlayerPosition(): string
 {
 }
 
-function StopForcingPlayerToBeHero()
+function StopForcingPlayerToBeHero(): string
 {
 }
 
-function StopForcingSpawnRoom()
+function StopForcingSpawnRoom(): string
 {
 }
 
-function StopForcingThrottle()
+function StopForcingThrottle(): string
 {
 }
 
-function StopHealOverTime()
+function StopHealOverTime(): string
 {
 }
 
-function StopHealingModification()
+function StopHealingModification(): string
 {
 }
 
-function StopHoldingButton()
+function StopHoldingButton(): string
 {
 }
 
-function StopModifyingHeroVoiceLines()
+function StopModifyingHeroVoiceLines(): string
 {
 }
 
-function StopScalingBarriers()
+function StopScalingBarriers(): string
 {
 }
 
-function StopScalingPlayer()
+function StopScalingPlayer(): string
 {
 }
 
-function StopThrottleInDirection()
+function StopThrottleInDirection(): string
 {
 }
 
-function StopTransformingThrottle()
+function StopTransformingThrottle(): string
 {
 }
 
-function Teleport()
+function Teleport(): string
 {
 }
 
-function UnpauseMatchTime()
+function UnpauseMatchTime(): string
 {
 }
 
-function Wait()
+function Wait(): string
 {
 }
 
-function WaitUntil()
+function WaitUntil(): string
 {
 }
 
-function While()
+function While(): string
 {
 }
 
