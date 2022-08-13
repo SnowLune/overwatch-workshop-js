@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "An npm package that provides bindings and an additional library to create Overwatch Workshop game modes in pure JavaScript or TypeScript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rv ./lib && tsc"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/SnowLune/overwatch-workshop-js/issues"
   },
-  "homepage": "https://github.com/SnowLune/overwatch-workshop-js#readme"
+  "homepage": "https://github.com/SnowLune/overwatch-workshop-js#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
