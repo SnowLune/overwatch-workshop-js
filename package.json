@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rv ./lib && tsc"
+    "clean": "rm -rvf ./lib",
+    "build": "npm run clean && tsc"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,8 @@
   "homepage": "https://github.com/SnowLune/overwatch-workshop-js#readme",
   "devDependencies": {
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "acorn": "^8.8.0"
   }
 }
