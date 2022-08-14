@@ -1,4 +1,4 @@
-new rule({
+/*new rule({
    comment: "",
    name: "",
    event: {
@@ -17,3 +17,5 @@ new rule({
       global.es = 3;
    }
 });
+
+*/
